@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.code-example{
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.25);
+    border-radius: 5px;
+}
+
+.code-example .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  background-color: rgba(0,0,0,.25);
+  height: 20px;
+  padding: 0.3rem 0.5rem;
+  
+}
+
+.code-example .content{
+    padding: 1rem;
+}
